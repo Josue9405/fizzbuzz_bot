@@ -14,9 +14,12 @@ describe("Prueba de unidad de para ExplorerService", () => {
         const explorers = JSONReader.readJsonFile("./data/explorers.json");
         expect(ExplorerService.getExplorersUsernamesByMission(explorers,"node")).toContain("ajolonauta14");
     });
-
     test("4) Obtener nombre de explorers que sean parte de Java", () => {
         const explorers = JSONReader.readJsonFile("./data/explorers.json");
         expect(ExplorerService.getExplorersNameByMission(explorers,"java")).toContain("Woopa");
+    });
+    test("5) Obtener misiones de los explorers", () => {
+        const explorers = JSONReader.readJsonFile("./data/explorers.json");
+        expect(ExplorerService.getExplorersMissions(explorers)).toContain("node");
     });
 });
