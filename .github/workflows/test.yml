@@ -1,0 +1,17 @@
+name: Run Tests in my project every push on GitHub
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - run: npm install
+    - run: npm test
+
+    - name: Run Jest
+      uses: stefanoeb/jest-action@1.0.3

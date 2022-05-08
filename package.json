@@ -1,0 +1,30 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
+    "server": "node ./lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josue9405/fizzbuzz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josue9405/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/Josue9405/fizzbuzz#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
