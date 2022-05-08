@@ -15,6 +15,6 @@ describe("Prueba de unidad de para ExplorerController", () => {
     });
     test("4) Obtener nombre de explorers en Node", () => {
         const explorers = ExplorerController.getExplorersName("node");
-        expect(explorers).toContain("ajolonauta11");
+        expect(explorers).toContain("Woopa");
     });
 });
