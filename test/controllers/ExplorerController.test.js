@@ -13,4 +13,8 @@ describe("Prueba de unidad de para ExplorerController", () => {
         const explorers = ExplorerController.getExplorersAmonutByMission("node");
         expect(explorers).toBe(10);
     });
+    test("4) Obtener nombre de explorers en Node", () => {
+        const explorers = ExplorerController.getExplorersName("node");
+        expect(explorers).toContain("ajolonauta11");
+    });
 });
