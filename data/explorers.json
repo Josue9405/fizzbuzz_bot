@@ -168,5 +168,31 @@
         "reasonML",
         "elm"
       ]
+    },
+    {
+      "name": "Tulio",
+      "githubUsername": "tuliodog",
+      "score": 15,
+      "mission": "elixir",
+      "stacks": [
+        "javascript",
+        "elixir",
+        "groovy",
+        "reasonML",
+        "elm"
+      ]
+    },
+    {
+      "name": "Carlo",
+      "githubUsername": "carlo",
+      "score": 15,
+      "mission": "elixir",
+      "stacks": [
+        "javascript",
+        "elixir",
+        "groovy",
+        "reasonML",
+        "elm"
+      ]
     }
     ] 
